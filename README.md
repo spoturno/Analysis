@@ -1,4 +1,8 @@
+This project consist in computing various mathematical problems with number analysis 
 ## Resources
 - [Numerical analysis](https://en.wikipedia.org/wiki/Numerical_analysis)
+- [Richadson xtrapolation](https://en.wikipedia.org/wiki/Richardson_extrapolation#:~:text=In%20numerical%20analysis%2C%20Richardson%20extrapolation,.)
+- [Gaussian Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination)
+- [A parallel algorithm for Gaussian elimination over
+finite fields](https://arxiv.org/pdf/1806.04211.pdf)
 
-<img src="https://render.githubusercontent.com/render/math?math=$\color{red} C^2 $">

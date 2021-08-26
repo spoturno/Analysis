@@ -8,5 +8,6 @@ This project consist in computing various mathematical problems with number anal
 - [Algorithms_for_calculating_variance](https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance)
 - [Numerical stability](https://en.wikipedia.org/wiki/Numerical_stability)
 - [Hdamard product](https://en.wikipedia.org/wiki/Hadamard_product_(matrices))
+- [Stability Theory](https://en.wikipedia.org/wiki/Stability_theory)
 
 

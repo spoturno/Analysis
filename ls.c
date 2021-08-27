@@ -4,9 +4,12 @@
 int main(void){
 
     //TODO: user input A and B
-    const int n = 3;
+    int n;
 
     int i, j, k;
+
+    printf("Enter size of matrix (nxn):");
+    scanf("%d", &n);
 
     //matrix of coheficients declaration A (nxn)
     float A[3][3];
@@ -15,7 +18,7 @@ int main(void){
     for(int i=0; i < n; i++){
         for(int j=0; j < n; j++){
             printf("A[%d][%d]:", i, j);
-            scanf("%f\n", &A[i][j]);
+            scanf("%f", &A[i][j]);
         }
     }
 
@@ -46,6 +49,7 @@ int main(void){
     }
 
     //print solutions
+    printf("\n");
     for(i=0; i<n; i++){
         printf("X[%d] = %f\n", i, X[i]);
     }

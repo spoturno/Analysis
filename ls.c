@@ -52,9 +52,7 @@ int main(void){
     printf("\n");
     for(i=0; i<n; i++){
         printf("X[%d] = %f\n", i, X[i]);
-    }
-
-     
+    } 
 
 }
 

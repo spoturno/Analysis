@@ -2,24 +2,27 @@
 #include <stdlib.h>
 
 int main(void){
-        
+
     //TODO: user input A and B
     const int n = 3;
-    
-    //error of exceeding while declaring  A[n]
+
+    int i, j, k;
 
     //matrix of coheficients declaration A (nxn)
-    float A[3][3] = {
-        {3, 2, 1}, 
-        {1, 1, 5},
-        {4, 5, 1}
-    };
+    float A[3][3];
+    
+    //error of exceeding while declaring  A[n]
+    for(int i=0; i < n; i++){
+        for(int j=0; j < n; j++){
+            printf("A[%d][%d]:", i, j);
+            scanf("%f\n", &A[i][j]);
+        }
+    }
+
     
     // colum vector declaration B(nx1), X(nx1)
     float X[3];
     float B[3] = {1, 1, 1}; 
-
-    int i, j, k;
 
     //gaussian elimination (inefficient)
     for (k=0; k<n-1; k++){
@@ -42,9 +45,13 @@ int main(void){
         X[i] = (B[i] - sum) / A[i][i];
     }
 
+    //print solutions
     for(i=0; i<n; i++){
         printf("X[%d] = %f\n", i, X[i]);
     }
+
+     
+
 }
 
 
